@@ -92,7 +92,7 @@ O escopo deve ser delimitado da seguinte forma:
   * Frequência
   * Certificação
 * Módulos administrativos podem ser mencionados, mas não aprofundados
-* O sistema deve ser tratado como estudo de caso
+* O sistema deve ser tratado como estudo de caso ou pesquisa aplicada
 
 ---
 
