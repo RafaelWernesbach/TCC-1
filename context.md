@@ -17,7 +17,7 @@ O Educa EMES pode ser caracterizado como um sistema integrado de gestão educaci
 * Portal externo para alunos (acompanhamento de cursos, frequência e certificados)
 * Área interna para servidores
 
-O sistema também realiza a automação completa do fluxo acadêmico da instituição, incluindo:
+O sistema já contempla parte do fluxo acadêmico da instituição, incluindo:
 
 * Inscrição em cursos
 * Controle de frequência
@@ -38,7 +38,7 @@ Antes da implementação do sistema atual:
 
   * Baixa usabilidade
   * Arquitetura inadequada
-  * Escopo limitado apenas ao fluxo pedagógico básico
+  * Escopo limitado apenas ao fluxo pedagógico básico;
 * Diversas atividades continuavam sendo feitas manualmente:
 
   * Comunicação com alunos
@@ -46,26 +46,31 @@ Antes da implementação do sistema atual:
   * Divulgação de cursos
   * Aplicação de formulários
 
-O principal problema identificado é a **ausência de um sistema integrado capaz de centralizar e automatizar os processos educacionais e administrativos da instituição**.
+A implementação do Educa EMES representou um avanço significativo na digitalização e integração desses processos. No entanto, observa-se que o fluxo pedagógico ainda apresenta pontos de intervenção manual, ausência de padronização em determinadas etapas e limitações na automação completa do ciclo acadêmico.
+
+Assim, o problema central deste trabalho não se restringe à inexistência de um sistema, mas à **necessidade de ampliar e consolidar a automação do fluxo pedagógico dentro de um sistema integrado já existente**, garantindo maior eficiência, padronização e redução de dependência de operações manuais.
 
 ---
 
 ## PROPOSTA DO TCC
 
-O TCC deve apresentar o **desenvolvimento, modelagem e análise do sistema Educa EMES como solução para o problema identificado**, caracterizando-se como uma pesquisa aplicada com estudo de caso.
+O TCC deve apresentar o **desenvolvimento, modelagem e análise de uma solução de automação do fluxo pedagógico no sistema Educa EMES**, caracterizando-se como uma pesquisa aplicada com estudo de caso.
 
-O sistema será tratado como:
+O sistema Educa EMES será tratado como:
 
-* Uma solução real implementada
-* Um objeto de estudo acadêmico
-* Um exemplo de sistema integrado de gestão educacional
+* Uma solução já implementada
+* O ambiente base para a aplicação da proposta
+* Um estudo de caso real em instituição pública
 
-O foco do trabalho NÃO é apenas descrever funcionalidades, mas:
+A contribuição principal do trabalho consiste na **proposição e implementação de mecanismos que permitam a automação completa do fluxo pedagógico**, abrangendo desde a inscrição até a conclusão do curso e emissão de certificados.
 
-* Explicar decisões de arquitetura
-* Demonstrar modelagem do sistema
-* Analisar impacto nos processos institucionais
-* Evidenciar ganhos com automação e integração
+O foco do trabalho NÃO é apenas descrever funcionalidades existentes, mas:
+
+* Identificar lacunas no fluxo atual
+* Propor melhorias baseadas em automação
+* Modelar a solução proposta
+* Implementar os mecanismos necessários
+* Analisar os impactos qualitativos da solução
 
 ---
 
@@ -91,6 +96,7 @@ O escopo deve ser delimitado da seguinte forma:
   * Inscrição
   * Frequência
   * Certificação
+* Considerar a evolução desses módulos com foco na automação do fluxo
 * Módulos administrativos podem ser mencionados, mas não aprofundados
 * O sistema deve ser tratado como estudo de caso ou pesquisa aplicada
 
@@ -102,29 +108,37 @@ Desenvolver o Capítulo 1 com base na seguinte estrutura:
 
 ### 1. INTRODUÇÃO
 
-Contextualização do tema, importância da transformação digital na educação e apresentação do sistema.
+Contextualização do tema, importância da transformação digital na educação e apresentação do sistema Educa EMES como contexto do estudo.
 
 ### 1.1 DESCRIÇÃO DO PROBLEMA
 
-Apresentar o cenário anterior da EMES, incluindo processos manuais e limitações do sistema anterior.
+Apresentar:
+
+* O cenário anterior da EMES (processos manuais e sistema anterior)
+* A melhoria proporcionada pelo Educa EMES
+* A lacuna atual: ausência de automação completa do fluxo pedagógico
 
 ### 1.2 FORMULAÇÃO DO PROBLEMA
 
-Uma única frase clara e objetiva que sintetize o problema central do trabalho.
+Uma única frase clara e objetiva relacionada à automação do fluxo pedagógico.
 
 ### 1.3 PROPOSTA DE SOLUÇÃO
 
-Apresentar o sistema Educa EMES como solução proposta, incluindo a hipótese do trabalho.
+Apresentar a proposta de evolução do sistema Educa EMES com foco na automação do fluxo pedagógico.
 
 ### 1.4 OBJETIVOS
 
 #### Objetivo Geral
 
-Descrever o objetivo principal do TCC.
+Desenvolver e analisar uma solução de automação do fluxo pedagógico no sistema Educa EMES.
 
 #### Objetivos Específicos
 
-Listar os passos necessários para atingir o objetivo geral.
+* Analisar o fluxo pedagógico atual
+* Identificar pontos de intervenção manual
+* Modelar a solução de automação
+* Implementar os mecanismos propostos
+* Avaliar qualitativamente os impactos da solução
 
 ---
 
@@ -132,9 +146,9 @@ Listar os passos necessários para atingir o objetivo geral.
 
 A transformação digital no setor público tem impulsionado a modernização de processos administrativos e educacionais, especialmente em instituições responsáveis pela formação profissional. Nesse contexto, escolas da magistratura desempenham papel essencial na capacitação de servidores e membros do judiciário, demandando soluções tecnológicas eficientes para gestão acadêmica e administrativa.
 
-A Escola da Magistratura do Espírito Santo (EMES) insere-se nesse cenário, apresentando a necessidade de sistemas capazes de integrar e automatizar seus processos internos. Este trabalho apresenta o desenvolvimento de um sistema integrado de gestão educacional, denominado Educa EMES, concebido com o objetivo de centralizar e otimizar o fluxo acadêmico e administrativo da instituição.
+A Escola da Magistratura do Espírito Santo (EMES) insere-se nesse cenário, apresentando a necessidade de sistemas capazes de integrar e automatizar seus processos internos. Nesse contexto, foi desenvolvido o sistema Educa EMES, concebido com o objetivo de centralizar e otimizar o fluxo acadêmico e administrativo da instituição.
 
-O sistema foi desenvolvido durante estágio na instituição, em colaboração com a equipe técnica, sendo atualmente utilizado em ambiente de produção. Dessa forma, este trabalho propõe a análise, modelagem e documentação do sistema, considerando sua arquitetura, funcionalidades e impacto nos processos institucionais.
+Embora o sistema represente um avanço significativo na digitalização dos processos institucionais, ainda se observa a necessidade de ampliar o nível de automação do fluxo pedagógico, de forma a reduzir intervenções manuais e aumentar a eficiência operacional. Dessa forma, este trabalho propõe a evolução do sistema Educa EMES por meio da implementação de mecanismos que permitam a automação completa do ciclo acadêmico.
 
 ---
 
@@ -144,8 +158,8 @@ A partir deste contexto:
 
 * Expandir cada seção de forma coerente e acadêmica
 * Manter consistência entre problema, solução e objetivos
-* Evitar repetições desnecessárias
-* Garantir fluidez textual entre os tópicos
+* Garantir que a contribuição do TCC seja clara (automação do fluxo pedagógico)
+* Evitar tratar o sistema como solução final
 * Produzir conteúdo adequado para TCC de graduação em Sistemas de Informação
 
 ---
