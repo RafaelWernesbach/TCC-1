@@ -1,36 +1,330 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % referencial.tex
 %
-% Modelo de arquivo para uso com a classe uvvTeX2, para a formatação de
-% trabalhos acadêmicos na Universidade Vila Velha (https://uvv.br).
-%
-% Para maiores informações, visite:
-%    https://github.com/uvv-computacao/uvvtex2
-%
-% Este modelo mostra como inserir o capítulo de introdução de sua monografia.
-% Basta informar o título e o label da introdução, e escrever o conteúdo.
+% Capítulo de referencial teórico da monografia.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Revisão bibliográfica}
+\chapter{Revisão Bibliográfica}
 \label{sec:revbib}
 
-Neste capítulo você deve fazer um levantamento bibliográfico detalhado e
-abrangente. Deve buscas trabalhos semelhantes e deve demonstrar que você estudo
-``tudo'' que é necessário para o desenvolvimento de seu trabalho.
+Este capítulo apresenta o referencial teórico que fundamenta a proposta de
+automação do fluxo pedagógico no sistema Educa EMES. A revisão parte de
+conceitos mais amplos da área de Sistemas de Informação e avança até elementos
+mais diretamente relacionados ao problema investigado, envolvendo sistemas
+integrados, sistemas de gestão educacional, automação de processos, integração
+de sistemas e engenharia de software. A construção desse percurso teórico busca
+sustentar, em nível conceitual, as decisões de modelagem e implementação
+discutidas nos capítulos seguintes.
 
-Não há uma forma padrão de escrever a revisão bibliográfica, você pode dividir
-este capítulo em seções e subseções da maneira que for mais conveniente para
-você. O importante é que você demonstre o estado atual do conhecimento e que
-demonstre que você entendeu do assunto o suficiente para ser capaz de
-desenvolver o trabalho e alcançar os objetivos.
+% \section{Sistemas de Informação}
+% \label{sec:revbib:si}
 
-É importante que durante a revisão bibliográfica e, na verdade, durante todo seu
-TCC, você cite adequadamente as fontes da revisão bibliográfica
-\cite{Thompson1998}.
+% Os sistemas de informação ocupam papel central no funcionamento das
+% organizações contemporâneas, pois estruturam a coleta, o processamento, o
+% armazenamento e a distribuição de dados necessários à execução das atividades e
+% ao suporte à gestão. Nesse sentido, não se limitam ao uso de recursos
+% tecnológicos isolados, mas compõem arranjos sociotécnicos que articulam
+% informações, processos, pessoas e regras organizacionais para apoiar a operação
+% e a tomada de decisão \cite{LaudonLaudon2020,DeLoneMcLean2016}.
 
-Segundo \citeauthoronline{Graham1994} (\citeyear{Graham1994}), siga as normas da
-ABNT para fazer as citações. Utilize programas como o
-\href{https://www.jabref.org/}{JabRef} para manter suas referências.
+% Em ambientes organizacionais complexos, a relevância dos sistemas de informação
+% é ampliada pela necessidade de garantir confiabilidade, consistência e
+% rastreabilidade dos dados. A utilidade desses sistemas decorre não apenas da
+% capacidade de registrar eventos, mas também de transformar dados dispersos em
+% informações capazes de subsidiar coordenação, controle e avaliação de
+% desempenho. Sob essa perspectiva, sua contribuição está diretamente relacionada
+% à qualidade da informação disponibilizada e ao alinhamento entre a solução
+% adotada e os objetivos institucionais \cite{DeLoneMcLean2016}. No contexto
+% brasileiro, Calazans \cite{Calazans2006} reforça que a informação
+% organizacional deve ser tratada como ativo estratégico, cuja gestão adequada é
+% indispensável para a geração de valor e para a efetividade dos fluxos
+% informacionais nas organizações.
 
+% No setor público, essa discussão torna-se ainda mais relevante, uma vez que a
+% gestão institucional depende de processos formais, transparência administrativa
+% e continuidade operacional. Gregor, Hart e Martin \cite{GregorHartMartin2007}
+% argumentam que arquiteturas de informação bem estruturadas favorecem o
+% alinhamento entre estratégia e tecnologia, contribuindo para melhor integração
+% entre áreas e maior capacidade de coordenação organizacional. Em instituições
+% educacionais públicas, tais características são particularmente importantes, já
+% que o tratamento adequado das informações afeta diretamente a execução de
+% fluxos acadêmicos, o acompanhamento das atividades formativas e a qualidade dos
+% serviços prestados. Em consonância com essa perspectiva, Guimarães e Évora
+% \cite{GuimaraesEvora2004} assinalam, em estudo brasileiro, que os sistemas de
+% informação exercem função relevante como instrumentos de apoio gerencial e de
+% tomada de decisão, sobretudo em ambientes institucionais que demandam maior
+% coordenação e controle das atividades.
+
+% Assim, os sistemas de informação constituem a base conceitual deste trabalho,
+% pois a automação do fluxo pedagógico depende da existência de mecanismos
+% capazes de organizar dados, regras e eventos de forma integrada. A discussão
+% teórica sobre sistemas de informação permite compreender que a melhoria do
+% fluxo acadêmico não decorre apenas da informatização de tarefas isoladas, mas
+% da capacidade do sistema de apoiar a gestão do processo como um todo.
+
+..........
+
+
+\section{Sistemas Integrados de Gestão}
+\label{sec:revbib:sig}
+
+Os sistemas integrados de gestão surgem como resposta à fragmentação
+informacional e à existência de aplicações isoladas que dificultam a visão
+global dos processos organizacionais. Em vez de manter bases de dados,
+procedimentos e rotinas desconectadas, tais sistemas procuram centralizar a
+informação e articular diferentes módulos funcionais em uma plataforma comum,
+reduzindo redundâncias e inconsistências \cite{Davenport1998,KlausRosemannGable2000}.
+
+No campo organizacional, esse modelo é frequentemente associado ao conceito de
+\textit{Enterprise Resource Planning} (ERP). Klaus, Rosemann e Gable
+\cite{KlausRosemannGable2000} observam que os ERP se caracterizam justamente
+pela integração de processos e pela busca de uma base unificada de dados capaz
+de sustentar múltiplas funções institucionais. Davenport \cite{Davenport1998},
+por sua vez, destaca que o valor desses sistemas está na substituição de
+estruturas fragmentadas por uma lógica mais integrada de operação, o que
+favorece padronização e consistência entre setores antes organizados de forma
+independente.
+
+..........
+
+
+% Os benefícios associados aos sistemas integrados incluem maior uniformidade de
+% rotinas, redução de retrabalho, melhoria da qualidade da informação e ampliação
+% da capacidade de controle gerencial \cite{Davenport1998,KlausRosemannGable2000}.
+% Todavia, sua adoção também envolve desafios relevantes. Entre eles, destacam-se
+% a complexidade de implementação, a necessidade de aderência aos processos
+% institucionais e a importância de modelagem adequada para que a integração
+% entre módulos não produza apenas centralização técnica, mas efetiva coerência
+% operacional \cite{GregorHartMartin2007}.
+
+% No contexto deste trabalho, essa discussão é particularmente pertinente porque
+% o Educa EMES pode ser compreendido como um sistema integrado de gestão
+% educacional. Ainda que o foco do TCC não esteja em descrever o sistema em sua
+% totalidade, o referencial sobre sistemas integrados ajuda a enquadrar
+% conceitualmente a solução como uma plataforma que reúne módulos diversos e cujo
+% potencial de automação depende da articulação consistente entre suas partes.
+
+\section{Sistemas de Gestão Educacional}
+\label{sec:revbib:sge}
+
+
+..............
+
+% Os sistemas de gestão educacional correspondem a uma especialização dos
+% sistemas de informação voltada ao atendimento das particularidades do domínio
+% acadêmico. Diferentemente de soluções genéricas de controle administrativo,
+% esses sistemas precisam lidar com estruturas como cursos, turmas, inscrições,
+% acompanhamento discente, registros de frequência, certificação, comunicação com
+% participantes e, em muitos casos, integração com ambientes de aprendizagem
+% \cite{MartinsEtAl2019}.
+
+% Em instituições de ensino superior e de formação profissional, a literatura
+% aponta que a eficácia desses sistemas está associada à sua capacidade de
+% articular dimensões acadêmicas e administrativas em uma mesma lógica
+% institucional. Martins et al. \cite{MartinsEtAl2019} destacam que
+% \textit{Education Management Information Systems} (EMIS) possuem relevância não
+% apenas para a gestão institucional, mas também para a percepção de qualidade e
+% benefício por parte dos usuários. Em diálogo com essa discussão, Parente e
+% Espejo Villar \cite{ParenteEspejoVillar2020} mostram que, no contexto
+% brasileiro, os sistemas educacionais e as formas de gestão educacional foram
+% fortemente influenciados por transformações ocorridas na administração pública,
+% o que evidencia a necessidade de soluções compatíveis com exigências de
+% coordenação, regulação e padronização institucional.
+
+% Além dos sistemas institucionais, a literatura também reconhece a presença dos
+% ambientes virtuais de aprendizagem, ou \textit{Learning Management Systems}
+% (LMS), como componentes importantes do ecossistema educacional digital.
+% Turnbull, Chugh e Luck \cite{TurnbullChughLuck2022} observam que esses
+% ambientes sustentam ampla diversidade de atividades acadêmicas e operacionais,
+% embora frequentemente dependam de políticas e integrações institucionais mais
+% amplas para seu uso efetivo. No caso do presente trabalho, essa relação é
+% relevante porque o fluxo pedagógico não se esgota em registros administrativos,
+% podendo envolver também articulação com plataformas externas voltadas ao apoio
+% à aprendizagem. Em perspectiva nacional, Franco, Cordeiro e del Castillo
+% \cite{FrancoCordeiroCastillo2003} evidenciam que a incorporação de ambientes
+% virtuais no contexto universitário brasileiro depende não apenas da
+% disponibilidade tecnológica, mas também de estratégias institucionais de apoio
+% e formação para seu uso.
+
+% Dessa forma, os sistemas de gestão educacional devem ser compreendidos como
+% soluções aderentes às especificidades do domínio acadêmico. Sua efetividade não
+% está apenas no controle de cadastros ou eventos, mas na capacidade de sustentar
+% o ciclo educacional de maneira integrada, rastreável e compatível com as
+% necessidades institucionais. Esse entendimento dá suporte ao recorte do TCC,
+% centrado na evolução de um sistema educacional já existente para ampliar a
+% automação de seu fluxo pedagógico.
+
+\section{Automação de Processos}
+\label{sec:revbib:auto}
+
+A automação de processos organizacionais refere-se ao uso de mecanismos
+sistêmicos para executar, encadear ou apoiar atividades de maneira padronizada,
+reduzindo a dependência de intervenções manuais e aumentando a previsibilidade
+da operação. Em termos conceituais, essa discussão se aproxima do campo de
+\textit{Business Process Management} (BPM), no qual os processos são tratados
+como estruturas organizáveis, modeláveis, executáveis e passíveis de melhoria
+contínua \cite{Weske2024}.
+
+Segundo Weske \cite{Weske2024}, a gestão por processos permite compreender a
+organização para além de funções isoladas, concentrando a análise no fluxo de
+atividades, nas regras de negócio e nas dependências entre eventos. Esse olhar
+é especialmente relevante quando se busca automatizar rotinas, pois a automação
+não se reduz à digitalização de tarefas individuais. Ela exige modelagem
+coerente do processo, definição de estados, validações, gatilhos e critérios de
+transição capazes de tornar a execução mais consistente e controlável.
+
+
+
+% Entre os benefícios associados à automação estão a redução de falhas
+% operacionais, a maior rastreabilidade das ações, a padronização das rotinas e o
+% ganho de eficiência. Em contrapartida, a literatura também mostra que processos
+% mal modelados ou pouco aderentes ao contexto institucional podem produzir novos
+% gargalos em vez de resolvê-los. Ao discutir transformações no setor público,
+% Weerakkody, Janssen e El-Haddadeh \cite{WeerakkodyJanssenElHaddadeh2021}
+% destacam que iniciativas voltadas à reorganização de processos podem contribuir
+% para eficiência e integração, mas dependem de compatibilidade com a estrutura
+% organizacional e com as necessidades reais do ambiente em que são aplicadas. Em
+% contexto brasileiro, Biazzi, Muscat e Biazzi \cite{BiazziMuscatBiazzi2011}
+% demonstram que o aperfeiçoamento de processos em instituições públicas de
+% ensino superior está diretamente relacionado à superação de estruturas
+% burocráticas e departamentalizadas que dificultam a coordenação e a eficiência
+% dos serviços.
+
+No contexto deste TCC, a automação de processos é o núcleo da contribuição
+proposta. O problema investigado não está na ausência de um sistema, mas na
+persistência de etapas do fluxo pedagógico ainda dependentes de ação manual,
+com impactos sobre padronização, continuidade e controle. Por isso, o
+referencial de automação é essencial para sustentar a ideia de que a evolução
+do Educa EMES deve ocorrer por meio da organização lógica do fluxo acadêmico e
+da incorporação de mecanismos que o tornem mais integrado, previsível e
+rastreável.
+
+..........
+
+% \section{Integração de Sistemas}
+% \label{sec:revbib:integracao}
+
+% A integração de sistemas constitui elemento decisivo em ambientes
+% organizacionais que dependem da circulação contínua de dados entre aplicações,
+% módulos e plataformas distintas. Em termos conceituais, trata-se da capacidade
+% de promover interoperabilidade, troca estruturada de informações e coordenação
+% entre componentes que, embora distintos, precisam operar de forma coerente no
+% interior de um mesmo processo institucional. Em sistemas organizacionais, essa
+% necessidade decorre do fato de que diferentes funções e rotinas operacionais
+% raramente permanecem isoladas sem prejuízo à consistência dos dados e à
+% continuidade dos processos \cite{Davenport1998,KlausRosemannGable2000}.
+
+% Quando essa integração não ocorre, tende a surgir um cenário marcado por
+% fragmentação, duplicidade de registros, retrabalho e perda de consistência
+% informacional. Gregor, Hart e Martin \cite{GregorHartMartin2007} mostram que a
+% articulação entre arquitetura informacional e estratégia institucional é
+% fundamental para evitar silos e sustentar alinhamento organizacional. Em
+% estudo brasileiro, De Sordi e Medeiros Júnior \cite{DeSordiMedeiros2006}
+% evidenciam que a integração entre sistemas de informação possui impacto direto
+% na gestão da operação, especialmente quando envolve processos críticos e
+% dependentes de comunicação contínua entre diferentes aplicações.
+
+% No domínio educacional, a integração adquire relevância adicional porque os
+% processos acadêmicos costumam envolver múltiplos sistemas e fontes de dados,
+% como registros institucionais, portais, módulos administrativos e ambientes
+% virtuais de aprendizagem. Aunimo et al. \cite{AunimoEtAl2025} demonstram que a
+% combinação de dados provenientes de LMS e registros acadêmicos pode ampliar a
+% capacidade analítica e favorecer melhor compreensão do percurso estudantil,
+% embora também revele desafios práticos de consolidação e qualidade dos dados.
+% Esse tipo de evidência reforça que sistemas educacionais isolados tendem a
+% limitar a fluidez dos processos e o aproveitamento institucional das
+% informações.
+
+% Desse modo, a integração de sistemas não deve ser entendida apenas como tema
+% técnico, mas como condição para continuidade do fluxo organizacional. No
+% presente trabalho, essa discussão fundamenta a necessidade de tratar o fluxo
+% pedagógico como um processo que atravessa diferentes funcionalidades do sistema
+% e que pode envolver, em nível conceitual, articulações com plataformas externas
+% de apoio à atividade educacional.
+
+\section{Engenharia de Software}
+\label{sec:revbib:engsoft}
+
+A engenharia de software oferece fundamentos importantes para compreender que a
+qualidade de um sistema não depende apenas de sua existência ou de sua
+capacidade de executar funções isoladas, mas da forma como seus elementos são
+modelados, estruturados e organizados ao longo do desenvolvimento.
+Sommerville \cite{Sommerville2011} destaca que sistemas de software devem ser
+construídos com atenção a atributos como manutenibilidade, confiabilidade,
+eficiência e adequação ao contexto de uso. De modo semelhante, Pressman e
+Maxim \cite{Pressman2014} observam que decisões de arquitetura, modelagem e
+projeto influenciam diretamente a capacidade de evolução da solução e sua
+aderência aos requisitos do domínio.
+
+Essa discussão é particularmente relevante quando se considera a diferença
+entre informatizar atividades e de fato sustentar processos institucionais por
+meio de software. Um sistema pode apresentar funcionalidades aparentemente
+suficientes e, ainda assim, mostrar baixa qualidade estrutural quando sua
+arquitetura não favorece integração, quando seu modelo de domínio não
+representa adequadamente as regras de negócio ou quando sua organização interna
+dificulta manutenção e evolução \cite{Sommerville2011,Pressman2014}. Em
+cenários dessa natureza, problemas como baixa usabilidade, retrabalho,
+dependência de operações manuais e dificuldade de adaptação tornam-se sintomas
+de deficiências de engenharia, e não apenas de ausência de funcionalidades.
+
+No caso de sistemas voltados à gestão educacional, a modelagem do domínio
+assume papel decisivo, pois o software precisa representar com coerência
+elementos como cursos, inscrições, critérios de aprovação, registros de
+frequência, certificação e comunicação com os participantes. Quando essa
+modelagem é insuficiente ou pouco aderente ao processo real, a automação tende
+a ser parcial, frágil ou inconsistente. Por essa razão, a automação do fluxo
+pedagógico não pode ser compreendida apenas como implementação de código, mas
+como atividade que envolve engenharia de processos e tradução adequada das
+regras institucionais para a estrutura do sistema \cite{Weske2024,Pressman2014}.
+
+Além disso, a arquitetura de software é central para a sustentação de sistemas
+integrados e para a evolução incremental de soluções em produção. Segundo
+Sommerville \cite{Sommerville2011}, uma arquitetura bem definida contribui para
+separação de responsabilidades, redução de acoplamento excessivo e maior
+facilidade de manutenção. Em termos práticos, isso significa que um sistema
+com melhor organização arquitetural tende a oferecer base mais favorável à
+incorporação de novas regras, à integração entre módulos e ao aperfeiçoamento
+de fluxos de negócio sem comprometer a estabilidade da aplicação.
+
+Nesse sentido, a engenharia de software sustenta teoricamente a avaliação de
+que a qualidade de uma solução educacional integrada está associada não apenas
+ao conjunto de funcionalidades disponíveis, mas também à coerência entre
+arquitetura, modelagem de domínio, organização dos processos e capacidade de
+evolução do sistema. Para este trabalho, esse referencial é importante porque
+permite justificar por que limitações observadas em soluções anteriores podem
+estar relacionadas à má modelagem e à inadequação arquitetural, ao mesmo tempo
+em que fundamenta a proposição de uma solução mais aderente ao fluxo pedagógico
+e mais favorável à automação de suas etapas.
+
+% \section{Síntese da Revisão}
+% \label{sec:revbib:sintese}
+
+% A revisão bibliográfica desenvolvida neste capítulo evidencia que a proposta do
+% trabalho se apoia em fundamentos complementares. Os sistemas de informação
+% fornecem a base conceitual para compreender a organização, o tratamento e o uso
+% institucional das informações. Os sistemas integrados de gestão demonstram a
+% importância da centralização de dados, da articulação entre módulos e da
+% padronização de rotinas. Os sistemas de gestão educacional, por sua vez,
+% mostram que o domínio acadêmico possui exigências próprias e demanda soluções
+% aderentes ao seu fluxo operacional \cite{LaudonLaudon2020,KlausRosemannGable2000,MartinsEtAl2019}.
+
+% De forma articulada, a literatura sobre automação de processos reforça que a
+% redução de intervenções manuais depende de modelagem adequada do fluxo, de
+% regras bem definidas e de mecanismos capazes de garantir continuidade,
+% rastreabilidade e consistência operacional \cite{Weske2024,WeerakkodyJanssenElHaddadeh2021}.
+% Já a discussão sobre integração de sistemas evidencia que a eficiência
+% institucional depende da capacidade de conectar dados, serviços e processos,
+% evitando a fragmentação informacional e favorecendo a continuidade entre etapas
+% acadêmicas \cite{DeSordiMedeiros2006,AunimoEtAl2025}. Sob a perspectiva da
+% engenharia de software, essa evolução também depende de arquitetura adequada,
+% modelagem coerente do domínio e organização estrutural capaz de sustentar
+% manutenção, integração e crescimento do sistema \cite{Sommerville2011,Pressman2014}.
+
+% Em conjunto, esses referenciais justificam a proposta de ampliar a automação do
+% fluxo pedagógico no Educa EMES. A revisão demonstra que o problema investigado
+% não pode ser compreendido apenas como ausência de funcionalidade, mas como
+% questão relacionada à organização do processo acadêmico, à integração entre
+% etapas, à aderência do sistema às necessidades institucionais e à qualidade de
+% sua modelagem e arquitetura. Com isso, o capítulo oferece a base teórica
+% necessária para a apresentação da metodologia adotada no estudo e para a
+% análise da solução desenvolvida no contexto da EMES.
