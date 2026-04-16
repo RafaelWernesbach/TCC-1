@@ -11,33 +11,34 @@ A transformação digital no setor público tem impulsionado a revisão de
 processos administrativos e educacionais, especialmente em instituições cuja
 atuação depende de controle operacional, rastreabilidade das informações e
 padronização de rotinas. No contexto da formação profissional, a adoção de
-sistemas integrados tem se mostrado relevante para apoiar atividades como
+sistemas integrados se mostra relevante para apoiar atividades como
 planejamento de cursos, gestão de inscrições, acompanhamento de participação,
-registro de frequência e certificação.
+registro de frequência e certificação. Além de outras etapas adminstrativas que permeiam
+o ciclo pedagógico.
 
 Nesse cenário, escolas da magistratura desempenham papel estratégico na
-qualificação de magistrados, servidores e demais públicos vinculados ao Poder
+qualificação de magistrados, servidores e demais públicos externos ou vinculados ao Poder
 Judiciário, o que demanda instrumentos tecnológicos compatíveis com a
 complexidade de seus fluxos institucionais. A Escola da Magistratura do Espírito
 Santo (EMES) insere-se nesse contexto ao reunir atividades acadêmicas,
 administrativas e comunicacionais que precisam operar de forma articulada,
 segura e eficiente.
 
-Com o objetivo de apoiar essas demandas, foi desenvolvido o sistema Educa EMES,
+Com o objetivo de apoiar essas demandas, foi desenvolvido e lançado em novembro de 2025 o sistema Educa EMES,
 uma solução integrada de gestão educacional construída em contexto real de
-aplicação institucional e atualmente utilizada em ambiente de produção. O
+aplicação institucional e atualmente utilizada. O
 sistema passou a concentrar diferentes módulos relacionados à gestão acadêmica e
 administrativa, oferecendo suporte a processos como inscrição em cursos,
 controle de frequência, emissão de certificados, mensageria, documentação e
 operações internas da instituição.
 
-Embora o Educa EMES tenha representado um avanço importante na digitalização e
-na integração dos processos da EMES, o fluxo pedagógico ainda apresenta etapas
+Embora o Educa EMES tenha representado um avanço significativo na modernização e
+integração dos processos da EMES, o fluxo pedagógico ainda apresenta diversas etapas
 com intervenção manual, ausência de padronização em determinadas rotinas e
 limitações quanto à automação integral do ciclo acadêmico. Diante disso, este
-trabalho não se limita à descrição do sistema já implantado, mas concentra-se na
-proposição, modelagem, implementação e análise de mecanismos capazes de ampliar
-e consolidar a automação do fluxo pedagógico no sistema existente. Nessa
+trabalho não se limita à descrição do sistema já em uso, mas sim na
+proposta, modelagem e implementação de uma expansão do sistema capaz de consolidar
+a automação do fluxo pedagógico no sistema existente. Nessa
 perspectiva, o Educa EMES é tratado simultaneamente como ambiente base da
 solução proposta e como estudo de caso aplicado à gestão educacional em
 instituição pública.
@@ -49,7 +50,7 @@ Antes da adoção de uma solução integrada, a EMES executava parte relevante d
 seus processos pedagógicos por meio de procedimentos manuais. Entre essas
 rotinas estavam registros físicos de frequência, controles operacionais
 dispersos e atividades dependentes de intervenção direta dos servidores, o que
-reduzia a eficiência das ações institucionais e dificultava a consolidação das
+reduzia a eficiência das ações pedagógicas e dificultava a consolidação das
 informações acadêmicas.
 
 Em 2023, a instituição passou a utilizar o sistema Emeron Web como alternativa
@@ -69,17 +70,18 @@ executadas manualmente ao longo do ciclo acadêmico.
 
 Desse modo, o problema abordado neste trabalho não consiste na inexistência de
 um sistema para a EMES, mas na necessidade de ampliar a automação do fluxo
-pedagógico dentro de uma plataforma já implantada. Tal necessidade envolve
-identificar as limitações do fluxo atual, propor melhorias baseadas em
+pedagógico dentro de uma plataforma já implantada. Essa necessidade envolve
+identificar os gargalos e limitações do fluxo atual, propor melhorias baseadas em
 automação e implementar mecanismos que aumentem a eficiência operacional, a
-consistência dos procedimentos e a rastreabilidade das atividades acadêmicas.
+consistência dos procedimentos das atividades acadêmicas.
 
 \section{Formulação do problema}
 \label{sec:intro:form_prob}
 
-Como desenvolver e analisar uma solução capaz de ampliar e consolidar a
+Como desenvolver uma solução capaz de ampliar e consolidar a
 automação do fluxo pedagógico no sistema Educa EMES, reduzindo intervenções
-manuais e promovendo maior eficiência e padronização dos processos acadêmicos da
+manuais e pontos de gargalos, porém ainda permitindo a intervenção manual e a rastreabilidade de todo o
+fluxo, promovendo maior eficiência e padronização dos processos acadêmicos da
 EMES?
 
 \section{Proposta de solução}
@@ -90,18 +92,18 @@ sistema Educa EMES por meio do desenvolvimento, da modelagem e da implementaçã
 de mecanismos voltados à automação do fluxo pedagógico. A proposta considera o
 sistema já existente como base tecnológica da solução, concentrando-se
 principalmente nos processos de inscrição, acompanhamento de frequência,
-conclusão de cursos e emissão de certificados.
+conclusão de cursos, emissão de certificados e geração de relatórios.
 
-O enfoque adotado corresponde a uma pesquisa aplicada com estudo de caso, uma
+A proposta adotada corresponde a uma pesquisa aplicada, uma
 vez que a solução é concebida a partir de uma demanda institucional concreta e
-avaliada em um ambiente real de utilização. Nesse contexto, a contribuição do
-trabalho está na identificação de lacunas do fluxo atual, na proposição de uma
+avaliada em um ambiente real de uso. Nesse contexto, a contribuição do
+trabalho está na identificação de lacunas e gargalos do fluxo atual, na proposição de uma
 modelagem aderente às necessidades da EMES, na implementação dos mecanismos de
 automação e na análise qualitativa dos impactos observados a partir dessa
 evolução.
 
 Assim, o Educa EMES não é tratado como resultado final e acabado, mas como uma
-plataforma integrada em processo de aprimoramento. A solução proposta busca
+plataforma integrada em processo de melhoria contínua. A solução proposta busca
 consolidar o fluxo pedagógico dentro do sistema, ampliar o nível de automação
 das rotinas acadêmicas e reduzir a dependência de procedimentos manuais ainda
 existentes na operação institucional.
@@ -112,7 +114,7 @@ existentes na operação institucional.
 \subsection{Objetivo geral}
 \label{sec:intro:obj:ger}
 
-Desenvolver e analisar uma solução de automação do fluxo pedagógico no sistema
+Desenvolver uma solução de automação do fluxo pedagógico no sistema
 Educa EMES.
 
 \subsection{Objetivos específicos}
@@ -120,26 +122,35 @@ Educa EMES.
 
 \begin{itemize}
 \item Analisar o fluxo pedagógico atual da EMES no contexto de utilização do
-Educa EMES.
+sistema Educa EMES.
+
 \item Identificar os pontos de intervenção manual e as limitações de automação
 existentes nas etapas do processo acadêmico.
+
+\item Identificar os gargalos e as oportunidades de melhoria no fluxo pedagógico da EMES.
+
+\item definir os requisitos e as funcionalidades necessárias para ampliar a automação do fluxo pedagógico no sistema.
+
 \item Modelar a solução proposta para ampliação da automação do fluxo
 pedagógico.
+
 \item Implementar os mecanismos necessários para automatizar etapas do fluxo
 pedagógico no sistema.
+
 \item Avaliar qualitativamente os impactos da solução proposta sobre a
 eficiência, a padronização e o controle dos processos acadêmicos.
+
 \end{itemize}
 
 \section{Justificativa}
 \label{sec:intro:jus}
 
-Este trabalho justifica-se pela relevância da automação de processos
+A proposta justifica-se pela relevância da automação de processos
 educacionais em instituições públicas que dependem de fluxos administrativos e
-acadêmicos confiáveis, integrados e rastreáveis. Em ambientes dessa natureza, a
+acadêmicos confiáveis, integrados e rastreáveis. Nesses contextos, a
 persistência de atividades manuais tende a gerar retrabalho, ampliar a
-possibilidade de inconsistências operacionais e dificultar o acompanhamento das
-ações realizadas ao longo do ciclo pedagógico.
+possibilidade de inconsistências e dificultar o acompanhamento das
+ações realizadas ao longo do fluxo pedagógico.
 
 No caso da EMES, a adoção do Educa EMES representou uma melhoria expressiva na
 digitalização dos processos institucionais, mas também evidenciou que a
@@ -149,7 +160,7 @@ intervenção manual demonstra a importância de investigar como a automação p
 ser ampliada de maneira estruturada, preservando aderência ao contexto
 institucional e promovendo ganhos de eficiência e padronização.
 
-Sob a perspectiva acadêmica, o estudo contribui para a área de Sistemas de
+Sob a perspectiva acadêmica, a proposta contribui para a área de Sistemas de
 Informação ao abordar uma experiência real de evolução de software em produção,
 com ênfase na modelagem e implementação de mecanismos de automação aplicados à
 gestão educacional. Além disso, o recorte adotado nos processos de inscrição,

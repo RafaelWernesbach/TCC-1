@@ -7,259 +7,76 @@
 \chapter{Metodologia}
 \label{sec:metod}
 
-% Este capítulo apresenta os procedimentos metodológicos adotados para o
-% desenvolvimento deste trabalho, com o propósito de explicitar a natureza da
-% pesquisa, a abordagem utilizada, o procedimento técnico empregado, o contexto
-% institucional investigado, as etapas de execução do estudo e a estratégia de
-% análise dos resultados. A organização metodológica foi definida em coerência
-% com o problema de pesquisa e com os objetivos estabelecidos, considerando que a
-% contribuição central do trabalho consistiu na proposição e na implementação de
-% uma solução voltada à ampliação da automação do fluxo pedagógico no sistema
-% Educa EMES.
+Este capítulo descreve a metodologia adotada no desenvolvimento do trabalho, explicando a natureza da pesquisa, a abordagem metodológica, o contexto do estudo, as etapas executadas e a estratégia de análise dos resultados. O trabalho insere-se na área de Sistemas de Informação e tem como foco a proposição e implementação de uma solução de automação do fluxo pedagógico no sistema Educa EMES, utilizado pela Escola da Magistratura do Espírito Santo (EMES).
 
-% Diferentemente de estudos exclusivamente descritivos sobre sistemas já
-% implantados, a presente pesquisa concentrou-se na evolução de uma solução em
-% uso real, partindo da observação de limitações existentes no processo
-% pedagógico da Escola da Magistratura do Espírito Santo (EMES). Nesse sentido, a
-% metodologia foi estruturada para permitir não apenas a compreensão do contexto
-% institucional e do funcionamento do sistema, mas também o delineamento da
-% lacuna de automação identificada, a modelagem da solução proposta, sua
-% implementação no ambiente da aplicação e a análise dos efeitos decorrentes
-% dessa intervenção.
+\section{Natureza da pesquisa}
+\label{sec:metod:natureza}
 
-% \section{Natureza da pesquisa}
-% \label{sec:metod:natureza}
+O trabalho caracteriza-se como uma pesquisa aplicada, voltada à solução de um problema concreto relacionado à gestão educacional e à automação de processos institucionais. A pesquisa aplicada busca resolver questões práticas em contextos reais, utilizando conhecimentos científicos para desenvolver soluções que atendam necessidades específicas. Nesse sentido, o estudo não se limita à análise teórica, mas envolve a identificação de lacunas no sistema existente, a modelagem de melhorias e a implementação de mecanismos que ampliem a automação do fluxo pedagógico, com avaliação dos impactos observados em ambiente institucional.
 
-% Quanto à sua natureza, este trabalho caracteriza-se como uma pesquisa aplicada,
-% pois foi orientado à resolução de um problema concreto observado em contexto
-% institucional específico. O foco da investigação não esteve restrito à
-% produção de conhecimento teórico sobre sistemas educacionais, mas à geração de
-% uma contribuição prática capaz de apoiar a melhoria dos processos pedagógicos
-% da EMES por meio da evolução do sistema Educa EMES.
+\section{Abordagem metodológica}
+\label{sec:metod:abordagem}
 
-% Esse enquadramento decorre do fato de que o estudo se originou de uma demanda
-% real relacionada à necessidade de ampliar a automação do fluxo acadêmico em um
-% sistema já utilizado pela instituição. Assim, a pesquisa foi conduzida com
-% finalidade interventiva, buscando identificar limitações operacionais,
-% estruturar uma proposta aderente às necessidades do ambiente estudado e
-% implementar mecanismos que contribuíssem para maior integração, padronização e
-% eficiência das rotinas pedagógicas.
+A abordagem metodológica adotada é qualitativa, pois o interesse do trabalho está na compreensão dos impactos da solução proposta sobre os processos pedagógicos da EMES, observando aspectos como integração entre etapas, padronização de rotinas, redução de intervenções manuais e eficiência operacional. A análise qualitativa permite explorar fenômenos complexos em contextos reais, sem depender de mensuração estatística formal, priorizando a interpretação de dados observacionais e a avaliação subjetiva de melhorias institucionais.
 
-% Além disso, a natureza aplicada do trabalho manifesta-se no vínculo direto
-% entre investigação e desenvolvimento de solução. A análise do problema, a
-% definição dos requisitos, a modelagem e a implementação não foram tratadas como
-% etapas independentes, mas como partes articuladas de um processo orientado à
-% transformação do cenário observado. Dessa forma, o conhecimento produzido ao
-% longo da pesquisa esteve diretamente associado à melhoria de práticas
-% institucionais e ao aperfeiçoamento de um sistema em produção.
+\section{Contexto e objeto do estudo}
+\label{sec:metod:contexto}
 
-% \section{Abordagem metodológica}
-% \label{sec:metod:abordagem}
+A Escola da Magistratura do Espírito Santo (EMES) é uma instituição vinculada ao Poder Judiciário, responsável pela formação e capacitação de magistrados, servidores e demais públicos externos ou vinculados ao judiciário. O sistema Educa EMES, desenvolvido em contexto real de aplicação institucional, constitui uma solução integrada de gestão educacional que abrange módulos de gestão acadêmica, administrativa, contratação, orçamento, documentação, mensageria e comunicação. O sistema já contempla funcionalidades básicas do fluxo pedagógico, como inscrição em cursos, controle de frequência, aprovação e emissão de certificados, mas apresenta limitações quanto à automação completa do ciclo acadêmico.
 
-% Quanto à abordagem, a pesquisa assumiu caráter predominantemente qualitativo. A
-% ênfase analítica recaiu sobre a compreensão da contribuição da solução proposta
-% para o aprimoramento do fluxo pedagógico, considerando aspectos como redução da
-% dependência de tarefas manuais, maior articulação entre etapas do processo,
-% padronização de procedimentos, rastreabilidade das informações e apoio à
-% eficiência operacional.
+O objeto do estudo delimita-se à automação do fluxo pedagógico dentro do sistema Educa EMES, tratando-o simultaneamente como ambiente base da solução proposta e como estudo de caso aplicado à gestão educacional em instituição pública. O foco concentra-se nos processos de inscrição, frequência, aprovação, certificação e geração de relatórios, com ênfase na redução de intervenções manuais e na padronização de procedimentos.
 
-% A opção por essa abordagem decorre da própria natureza do problema investigado.
-% A automação do fluxo pedagógico, em um contexto institucional como o da EMES,
-% não pode ser avaliada apenas em termos numéricos, uma vez que seus efeitos
-% incidem também sobre a organização das rotinas, a consistência dos registros, o
-% encadeamento entre atividades e a capacidade do sistema de apoiar a execução do
-% processo acadêmico de forma mais estruturada. Assim, a análise voltou-se para a
-% interpretação dos impactos observados na dinâmica institucional e no
-% funcionamento do sistema após a implementação da solução proposta.
+\section{Etapas de análise do fluxo pedagógico}
+\label{sec:metod:etapas}
 
-% Embora o enfoque principal seja qualitativo, a metodologia não exclui a
-% utilização complementar de indicadores agregados sempre que estes contribuam
-% para ilustrar os resultados alcançados. Todavia, tais informações assumem papel
-% subsidiário no estudo, não configurando uma avaliação estatística formal, mas
-% sim um recurso adicional para reforçar a compreensão dos efeitos da automação
-% implantada.
+As etapas do desenvolvimento do trabalho foram executadas de forma sequencial, alinhadas aos objetivos específicos definidos no capítulo anterior. A seguir, são descritas as três primeiras etapas realizadas.
 
-% \section{Procedimento técnico}
-% \label{sec:metod:procedimento}
+\subsection{Análise do fluxo pedagógico atual da EMES no contexto de utilização do sistema Educa EMES}
+\label{sec:metod:etapas:analise_fluxo}
 
-% No que se refere ao procedimento técnico, o trabalho foi desenvolvido como
-% estudo de caso. Esse enquadramento justifica-se pelo fato de a pesquisa estar
-% centrada em uma situação concreta, situada em ambiente institucional real, no
-% qual se observou um problema específico e se conduziu uma intervenção
-% direcionada à sua mitigação. O caso investigado corresponde à automação do
-% fluxo pedagógico no sistema Educa EMES, utilizado pela EMES em suas rotinas de
-% gestão acadêmica.
+Esta etapa consistiu na análise detalhada do fluxo pedagógico atual da EMES, considerando o contexto de utilização do sistema Educa EMES. O fluxo pedagógico foi mapeado a partir da observação das rotinas institucionais e da interação com o sistema existente, identificando as etapas principais do ciclo de vida de um curso ou evento educacional.
 
-% O estudo de caso mostrou-se adequado porque permitiu examinar o fenômeno em seu
-% contexto de ocorrência, preservando a relação entre o sistema, os processos
-% institucionais e as demandas operacionais que motivaram a pesquisa. Em vez de
-% isolar variáveis em ambiente controlado, a investigação acompanhou o problema no
-% espaço em que ele efetivamente se manifesta, o que favoreceu uma análise mais
-% aderente à realidade organizacional e às necessidades concretas da instituição.
+O processo inicia-se com o planejamento do curso pelo coordenador pedagógico, que insere informações básicas em uma planilha de cronograma, incluindo data, ministrante, local e título. Em seguida, o curso é cadastrado no sistema Educa EMES com dados mais completos, como horários exatos, carga horária, divisão de atividades, critérios de certificação, tolerâncias para frequência, informações sobre instrutores, local de realização, modalidade, senhas ou links de acesso.
 
-% Além disso, o procedimento adotado permitiu articular análise e intervenção. O
-% sistema já existia e encontrava-se em produção, o que exigiu compreender seu
-% estado atual, delimitar a lacuna de automação ainda presente no fluxo
-% pedagógico e, a partir disso, propor e implementar uma evolução específica. O
-% caso, portanto, não se limitou à descrição de uma experiência institucional,
-% mas envolveu a investigação de um problema real e a construção de uma resposta
-% tecnológica inserida no próprio contexto em que esse problema foi identificado.
+Após o cadastro, ocorre a abertura e encerramento de inscrições, análise dos pré-inscritos e confirmação das inscrições com base em critérios como setor ou vínculo com o Poder Judiciário. A confirmação automática gera registros de frequência e dispara e-mails de confirmação aos alunos. Conforme o curso se aproxima, o sistema envia lembretes automáticos por e-mail (3 e 1 dia antes) às 6h da manhã.
 
-% \section{Contexto e objeto do estudo}
-% \label{sec:metod:contexto}
+Durante a execução do curso, os alunos registram frequência, e ao término, um servidor da EMES utiliza uma ferramenta do sistema para aprovar ou reprovar alunos conforme critérios de aprovação e presença. Posteriormente, outro servidor gera certificados para alunos e instrutores, considerando modalidades como certificado por atividade, para o evento completo ou com carga horária somada das atividades participadas.
 
-% \subsection{Contexto institucional}
-% \label{sec:metod:contexto:institucional}
+Após a geração, os alunos recebem e-mail com link para formulário de avaliação, e ao preenchê-lo, o certificado é disponibilizado na área do aluno. O ciclo encerra-se com a geração de relatórios mensais para acompanhamento de metas, incluindo cursos realizados, número de inscritos, taxa de evasão e magistrados capacitados, mediante exportação manual de dados do sistema.
 
-% O contexto do estudo é a Escola da Magistratura do Espírito Santo (EMES),
-% instituição vinculada ao Poder Judiciário e voltada à formação e ao
-% aperfeiçoamento profissional de públicos relacionados à atividade jurisdicional
-% e administrativa. Em razão dessa finalidade, a instituição depende de processos
-% acadêmicos e operacionais capazes de garantir organização, confiabilidade das
-% informações, registro adequado das atividades formativas e acompanhamento das
-% etapas que compõem a oferta educacional.
+Esta análise permitiu compreender a estrutura atual do fluxo pedagógico, identificando pontos de integração com o sistema Educa EMES e estabelecendo base para as etapas subsequentes.
 
-% \subsection{Sistema Educa EMES}
-% \label{sec:metod:contexto:sistema}
+\subsection{Identificação dos pontos de intervenção manual e as limitações de automação existentes nas etapas do processo acadêmico}
+\label{sec:metod:etapas:intervencao_manual}
 
-% No âmbito tecnológico, a EMES passou a utilizar o sistema Educa EMES como
-% plataforma integrada de apoio à gestão acadêmica e administrativa. O sistema
-% reúne funcionalidades voltadas a diferentes dimensões da operação
-% institucional, incluindo rotinas pedagógicas, comunicação, documentação e apoio
-% às atividades internas. No recorte deste trabalho, contudo, o interesse não
-% está em descrever integralmente a solução, mas em analisar e desenvolver uma
-% evolução específica relacionada ao fluxo pedagógico.
+Esta etapa envolveu a identificação sistemática dos pontos de intervenção manual e das limitações de automação existentes no fluxo pedagógico, com base na análise realizada na etapa anterior. Foram observadas as rotinas que ainda dependem de ação direta dos servidores, mesmo com o sistema Educa EMES em operação, focando nas limitações que não podem ser automatizadas ou seriam muito trabalhosas para pouco ganho.
 
-% \subsection{Delimitação do objeto de estudo}
-% \label{sec:metod:contexto:objeto}
+O principal ponto de limitação identificado refere-se ao cadastro inicial do curso no sistema, durante a transição da planilha de cronograma para o Educa EMES. Essa tarefa apresenta complexidade para automação, pois envolve decisões contextuais e contato com terceiros para obtenção de informações adicionais, tornando a automatização completa pouco viável. No entanto, foi identificado que a validação da integridade do cadastro pode ser monitorada pelo sistema, verificando se os campos mínimos necessários estão preenchidos para evitar pendências durante a execução do curso.
 
-% Desse modo, o objeto de estudo foi delimitado à automação do fluxo pedagógico
-% dentro do Educa EMES, com ênfase nas etapas de inscrição, acompanhamento de
-% frequência, aprovação, certificação e notificações relacionadas à comunicação
-% do processo acadêmico. Essa delimitação foi adotada por corresponder ao núcleo
-% do problema investigado e por concentrar atividades que impactam diretamente a
-% operacionalização acadêmica da EMES. Módulos administrativos integrados ao
-% sistema podem ser mencionados quando necessários à compreensão do processo, mas
-% não constituem o foco analítico da pesquisa.
+\subsection{Identificação dos gargalos e as oportunidades de melhoria no fluxo pedagógico da EMES}
+\label{sec:metod:etapas:gargalos}
 
-% É importante destacar que o Educa EMES foi tratado simultaneamente como
-% ambiente base da pesquisa e como objeto empírico do estudo de caso. Entretanto,
-% a contribuição do trabalho não reside no simples relato de um sistema já
-% implantado, e sim na proposição, modelagem e implementação de mecanismos
-% capazes de ampliar a automação do fluxo pedagógico ainda dependente de
-% intervenções manuais.
+Esta etapa concentrou-se na identificação dos gargalos existentes no fluxo pedagógico e na exploração de oportunidades de melhoria, fundamentada nas análises das etapas anteriores. Os gargalos foram classificados em categorias principais, com ênfase em problemas recorrentes que impactam a eficiência operacional e podem ser endereçados através de automação.
 
-% \section{Etapas do desenvolvimento do trabalho}
-% \label{sec:metod:etapas}
+O primeiro gargalo refere-se à integridade do cadastro e conflitos de informações, onde é comum o esquecimento de campos essenciais durante o cadastro, como senhas para salas remotas ou datas de inscrição. Isso resulta em cadastros inconsistentes com a carga horária ou agendamentos conflitantes, gerando confusão durante a execução do curso e necessidade de correções posteriores.
 
-% O desenvolvimento do trabalho foi organizado em etapas sequenciais e
-% complementares, definidas de modo a assegurar coerência entre a compreensão do
-% problema, a proposição da solução e a análise dos resultados. Embora descritas
-% de forma ordenada, tais etapas mantiveram relação de retroalimentação, uma vez
-% que o aprofundamento do entendimento sobre o contexto e sobre o sistema
-% existente influenciou o refinamento da modelagem e da implementação ao longo da
-% pesquisa.
+O segundo gargalo envolve a gestão do processo de inscrição, onde servidores frequentemente esquecem de abrir ou fechar inscrições, ou cadastram datas incorretas, comprometendo o controle temporal das vagas.
 
-% A primeira etapa consistiu no levantamento do contexto institucional e dos
-% processos pedagógicos da EMES. Nessa fase, buscou-se compreender o ambiente no
-% qual o sistema estava inserido, as características gerais da operação
-% acadêmica, as etapas que compunham o fluxo pedagógico e os pontos em que a
-% execução das atividades ainda dependia de ação manual. Esse levantamento foi
-% realizado a partir da observação dos processos internos da instituição, da
-% identificação de gargalos operacionais e de interlocuções com servidores,
-% equipe técnica e diretoria, o que permitiu reunir diferentes perspectivas sobre
-% as limitações do fluxo vigente. Tal procedimento foi fundamental para situar o
-% problema de pesquisa em sua realidade de ocorrência e para evitar uma
-% abordagem dissociada das necessidades efetivas da instituição.
+O terceiro gargalo diz respeito à confirmação manual de inscrições em cursos com públicos-alvo específicos, que requerem análise individual de perfis, consumindo tempo e gerando inconsistências.
 
-% Na segunda etapa, realizou-se a análise do sistema existente e a identificação
-% da lacuna de automação que motivou o estudo. O Educa EMES já atendia parte
-% relevante das demandas institucionais, mas o exame do fluxo pedagógico
-% evidenciou a permanência de rotinas fragmentadas, transições pouco
-% padronizadas entre etapas e atividades que ainda exigiam acompanhamento manual.
-% Assim, essa fase teve por finalidade delimitar com maior precisão o problema a
-% ser tratado, distinguindo aquilo que já estava consolidado no sistema daquilo
-% que ainda demandava evolução funcional e processual.
+O quarto gargalo relaciona-se à aprovação de alunos e inconsistência de critérios, principalmente em eventos com múltiplas atividades, onde erros de aprovação parcial ou desentendimentos entre responsáveis pelo cadastro e aprovação geram retrabalho.
 
-% A terceira etapa correspondeu à definição dos requisitos da solução proposta.
-% Com base na compreensão do contexto e na identificação das limitações do fluxo
-% vigente, foram estabelecidas as necessidades que a automação deveria atender,
-% considerando a aderência ao funcionamento institucional, a continuidade do uso
-% do sistema em produção e a necessidade de integrar as etapas pedagógicas de
-% forma mais consistente. Nessa definição, buscou-se especificar quais regras,
-% transições, validações e comportamentos do sistema seriam necessários para
-% reduzir intervenções manuais, padronizar procedimentos e assegurar maior
-% rastreabilidade do processo acadêmico.
+O quinto gargalo concerne à geração de certificados inconsistentes com o cadastro, onde divergências entre a modalidade projetada e a executada resultam em retrabalho e insatisfação.
 
-% Na quarta etapa, procedeu-se à modelagem da solução. Essa fase teve como
-% objetivo estruturar, em nível conceitual e funcional, a proposta de automação a
-% ser incorporada ao Educa EMES. A modelagem envolveu a organização lógica do
-% fluxo pedagógico, a definição das relações entre suas etapas, a explicitação
-% das condições necessárias para avanço do processo e a delimitação dos pontos em
-% que o sistema passaria a assumir ações antes dependentes de operação manual.
-% Mais do que representar funcionalidades isoladas, essa etapa buscou consolidar
-% uma visão integrada do ciclo acadêmico, preservando coerência entre regras de
-% negócio, necessidades institucionais e viabilidade de implementação.
+Finalmente, o sexto gargalo refere-se à geração de relatórios, onde demandas pontuais sobrecarregam a equipe, exigindo interrupção de outras atividades para extração manual de dados.
 
-% A quinta etapa consistiu na implementação da automação no sistema. Nessa fase,
-% a solução modelada foi traduzida para o ambiente real do Educa EMES,
-% respeitando as características da aplicação já existente e a necessidade de
-% continuidade operacional da instituição. A implementação foi orientada pela
-% integração entre as etapas do fluxo pedagógico, de modo que o sistema pudesse
-% executar ou apoiar automaticamente ações relacionadas à inscrição, ao
-% acompanhamento de frequência, à verificação de critérios de aprovação, à
-% certificação e ao envio de notificações e comunicações associadas ao processo
-% acadêmico. O propósito dessa etapa não foi apenas acrescentar novas
-% funcionalidades, mas consolidar um comportamento sistêmico capaz de organizar o
-% fluxo de forma mais contínua, previsível e menos dependente de intervenções
-% pontuais.
+Esses gargalos representam oportunidades de melhoria através da automação, como validações automáticas de cadastro, alertas para gestão de inscrições, confirmações inteligentes, padronização de critérios de aprovação, geração automática de certificados e relatórios dinâmicos, contribuindo para maior eficiência e redução de erros no fluxo pedagógico.
 
-% Por fim, a sexta etapa corresponde à análise dos impactos da solução
-% implementada. À medida que os mecanismos de automação forem incorporados ao
-% sistema, será analisado em que medida a proposta contribui para a melhoria do
-% fluxo pedagógico da EMES. Essa análise concentra-se na observação dos efeitos
-% da solução sobre a execução das rotinas acadêmicas, considerando especialmente
-% a redução de tarefas manuais, a melhoria da integração entre etapas, a
-% padronização dos procedimentos, a ampliação da rastreabilidade das informações
-% e o suporte oferecido à eficiência operacional da instituição. Quando
-% disponíveis, dados quantitativos agregados podem ser incorporados como apoio à
-% interpretação qualitativa, sem alterar o caráter predominantemente qualitativo
-% da investigação.
-% \section{Estratégia de análise dos resultados}
-% \label{sec:metod:analise}
+\section{Levantamento de requisitos}
+\label{sec:metod:requisitos}
 
-% A análise dos resultados será conduzida de forma predominantemente qualitativa,
-% com base na verificação da contribuição da solução proposta para o
-% aperfeiçoamento do fluxo pedagógico no contexto da EMES. Em vez de centrar a
-% avaliação em métricas isoladas, buscar-se-á examinar como a automação
-% implementada influencia a organização do processo acadêmico e o desempenho das
-% rotinas institucionais associadas a ele.
+\section{Modelagem da solução proposta}
+\label{sec:metod:modelagem}
 
-% Para tanto, a interpretação dos resultados considerará cinco dimensões centrais.
-% A primeira corresponde à redução da dependência de tarefas manuais, observando
-% se o sistema passa a executar, encadear ou apoiar automaticamente atividades
-% antes realizadas de forma dispersa pelos servidores. A segunda dimensão
-% relaciona-se à integração entre etapas do fluxo pedagógico, verificando se há
-% maior continuidade entre inscrição, acompanhamento acadêmico, aprovação,
-% certificação e comunicação com os participantes. A terceira envolve a
-% padronização de rotinas, isto é, a capacidade da solução de uniformizar
-% procedimentos e reduzir variações operacionais decorrentes de execuções não
-% sistematizadas.
-
-% A quarta dimensão de análise volta-se à rastreabilidade das informações,
-% considerando a possibilidade de registrar, acompanhar e recuperar com maior
-% clareza os dados e eventos associados ao ciclo acadêmico. A quinta dimensão,
-% por sua vez, concentra-se no apoio à eficiência operacional, observando se a
-% solução favorece maior fluidez das atividades, redução de retrabalho e melhor
-% capacidade de controle do processo pedagógico pela instituição.
-
-% Como apoio a essa análise, também poderão ser considerados registros de uso,
-% percepções da equipe interna que opera o sistema e feedbacks externos já
-% obtidos no contexto de utilização da plataforma, desde que relacionados ao
-% fluxo pedagógico e à evolução proposta neste trabalho. Desse modo, a estratégia
-% analítica é orientada menos pela mensuração absoluta de desempenho e mais pela
-% compreensão da transformação promovida no contexto de uso do sistema. Isso não
-% impede a posterior incorporação de evidências quantitativas agregadas para
-% complementar a discussão, desde que tais dados sejam utilizados como suporte
-% interpretativo e permaneçam articulados ao exame qualitativo dos efeitos
-% produzidos pela solução implementada.
+\section{Implementação da solução proposta}
+\label{sec:metod:implementacao}
