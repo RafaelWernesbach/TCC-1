@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="z1KIia0LpGdF-k8CRgV8">
+    <mxGraphModel dx="951" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rpAuRuohnJxjx-rGA2CH-228" edge="1" parent="1" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.5;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;" target="rpAuRuohnJxjx-rGA2CH-1" value="CURSO_TEM_AGENDAS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="110" y="66.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-328" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Scheduler" vertex="1">
+          <mxGeometry height="784" width="150" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-329" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Command" vertex="1">
+          <mxGeometry height="784" width="150" x="255" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-330" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Analyzer" vertex="1">
+          <mxGeometry height="784" width="150" x="455" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-331" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Factory" vertex="1">
+          <mxGeometry height="784" width="150" x="695" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-332" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Strategy" vertex="1">
+          <mxGeometry height="784" width="150" x="895" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-333" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Classifier" vertex="1">
+          <mxGeometry height="784" width="150" x="1095" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-334" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Job" vertex="1">
+          <mxGeometry height="784" width="150" x="1295" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-335" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Curso" vertex="1">
+          <mxGeometry height="784" width="150" x="1495" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-336" edge="1" parent="1" source="nEAURZRart465Ob4cGDc-328" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nEAURZRart465Ob4cGDc-329" value="Executa rotina periódica">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="221" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-337" edge="1" parent="1" source="nEAURZRart465Ob4cGDc-329" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nEAURZRart465Ob4cGDc-335" value="Busca cursos automáticos">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="959" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-338" edge="1" parent="1" source="nEAURZRart465Ob4cGDc-329" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nEAURZRart465Ob4cGDc-330" value="analyze(curso)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="439" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-339" edge="1" parent="1" source="nEAURZRart465Ob4cGDc-330" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nEAURZRart465Ob4cGDc-331" value="make(step)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="659" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-340" edge="1" parent="1" source="nEAURZRart465Ob4cGDc-331" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="nEAURZRart465Ob4cGDc-330" value="Strategy correspondente">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="662" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-341" edge="1" parent="1" source="nEAURZRart465Ob4cGDc-330" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nEAURZRart465Ob4cGDc-332" value="reconcile()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="759" y="387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-342" edge="1" parent="1" source="nEAURZRart465Ob4cGDc-332" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="nEAURZRart465Ob4cGDc-330" value="Step reconciliado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="762" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-343" edge="1" parent="1" source="nEAURZRart465Ob4cGDc-330" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="nEAURZRart465Ob4cGDc-329" value="analysis">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="442" y="491" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-344" edge="1" parent="1" source="nEAURZRart465Ob4cGDc-329" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nEAURZRart465Ob4cGDc-333" value="classify(curso, analysis)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="759" y="543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-345" edge="1" parent="1" source="nEAURZRart465Ob4cGDc-333" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="nEAURZRart465Ob4cGDc-329" value="auto_status">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="762" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-346" edge="1" parent="1" source="nEAURZRart465Ob4cGDc-329" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nEAURZRart465Ob4cGDc-335" value="Persiste auto_steps e auto_status">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="959" y="647" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEAURZRart465Ob4cGDc-347" edge="1" parent="1" source="nEAURZRart465Ob4cGDc-329" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="nEAURZRart465Ob4cGDc-334" value="Dispatch dos steps executáveis">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="859" y="699" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

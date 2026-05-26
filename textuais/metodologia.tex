@@ -259,19 +259,10 @@ acompanhamento e encerramento de cursos e eventos educacionais.
 \subsection{Entidades centrais do fluxo pedagógico}
 \label{sec:metod:analise_sis:entidades}
 
-\begin{figure}[H]
-    \centering
-    % \includegraphics[width=0.95\textwidth]{imagens/erd-conceitual-geral-fluxo-pedagogico.png}
-    \caption{Diagrama conceitual entre as entidades principais}
-    \label{fig:erd-geral-fluxo-pedagogico-conceitual}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    % \includegraphics[width=0.95\textwidth]{imagens/erd-logico-geral-fluxo-pedagogico.png}
-    \caption{Diagrama lógico entre as entidades principais}
-    \label{fig:erd-geral-fluxo-pedagogico-logico}
-\end{figure}
+O diagrama conceitual sintetizando as entidades principais do recorte
+analisado foi deslocado para o
+Apêndice~\ref{apend:diagramas-analise-sistema}, onde pode ser consultado
+com melhor legibilidade.
 
 A estrutura analisada demonstra que a tabela \texttt{esc\_cursos} ocupa
 posição central no modelo de dados. Essa tabela armazena os principais
@@ -404,16 +395,10 @@ certificados. Essa sequência evidencia que a automação proposta não
 atua sobre uma entidade isolada, mas sobre um conjunto de registros
 interdependentes.
 
-
-\begin{figure}[htbp]
-\centering
-\caption{Fluxo conceitual dos dados no ciclo pedagógico - colocar um diagrama de estados ou bpmn talvez}
-\label{fig:fluxo-dados-pedagogico}
-  \fbox{
-    %  \includegraphics[scale=1.0]{imagens/fluxo-pedagogico-educa-emes.svg}
-  }
-  \legend{Legenda}
-\end{figure}
+O fluxo conceitual dos dados no ciclo pedagógico também foi organizado
+no Apêndice~\ref{apend:diagramas-analise-sistema}, juntamente com o
+modelo conceitual, a fim de concentrar os artefatos visuais de apoio à
+análise estrutural do sistema em um único ponto de consulta.
 
 \begin{table}[H]
 \centering
@@ -494,6 +479,164 @@ coerência semântica com que esses elementos são configurados no sistema.
 
 \section{Levantamento de requisitos}
 \label{sec:metod:requisitos}
+
+O levantamento de requisitos da proposta foi conduzido a partir da
+análise do sistema educacional já existente na EMES. Em vez de partir de
+entrevistas isoladas ou de uma especificação hipotética, adotou-se como
+fonte principal a estrutura real da aplicação, incluindo o modelo de
+dados, os relacionamentos entre entidades, os fluxos pedagógicos
+identificados, os serviços de automação e as regras operacionais
+observadas na arquitetura atual. Essa estratégia permitiu derivar
+requisitos aderentes ao funcionamento efetivo do sistema e coerentes com
+o problema de pesquisa.
+
+Os artefatos de apoio produzidos para esta etapa incluem um diagrama de
+casos de uso, um diagrama de sequência e um fluxo geral da automação.
+Esses materiais foram organizados no
+Apêndice~\ref{apend:diagramas-levantamento-requisitos}, a fim de facilitar a consulta
+durante a leitura do documento.
+
+\subsection{Delimitação do minimundo}
+\label{sec:metod:requisitos:minimundo}
+
+O minimundo considerado neste trabalho corresponde ao contexto de
+gestão pedagógica da EMES, no qual o sistema é responsável por apoiar o
+cadastro e a oferta de cursos, o controle de inscrições, o registro de
+frequência, a certificação, a agenda acadêmica, a definição de
+públicos-alvo, a comunicação institucional e a automação de etapas do
+fluxo pedagógico.
+
+Nesse domínio, cada curso pode possuir atividades, participantes,
+frequências, certificados, instrutores, recursos e configurações
+automatizadas. O sistema também contempla regras relacionadas a períodos
+de inscrição, critérios de aprovação, geração de certificados e
+disparo de notificações. Além disso, observou-se a existência de um
+mecanismo de automação baseado na análise periódica de etapas, por meio
+do qual determinadas ações podem ser executadas automaticamente quando
+condições previamente definidas forem satisfeitas.
+
+\subsection{Atores envolvidos}
+\label{sec:metod:requisitos:atores}
+
+Com base na análise funcional e estrutural do sistema, foram
+identificados os atores apresentados na
+Tabela~\ref{tab:atores-levantamento-requisitos}.
+
+\begin{table}[H]
+\centering
+\caption{Atores considerados no levantamento de requisitos}
+\label{tab:atores-levantamento-requisitos}
+\begin{tabular}{p{4cm} p{10cm}}
+\hline
+\textbf{Ator} & \textbf{Responsabilidade principal} \\
+\hline
+Equipe pedagógica & Configurar cursos, inscrições, parâmetros de automação e acompanhar a execução do fluxo pedagógico. \\
+\hline
+Aluno & Realizar inscrições, participar das atividades ofertadas e acessar certificados emitidos pelo sistema. \\
+\hline
+Sistema de automação & Executar análises periódicas, classificar o estado dos cursos e disparar etapas automatizadas quando houver elegibilidade. \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Requisitos funcionais}
+\label{sec:metod:requisitos:funcionais}
+
+Os requisitos funcionais foram derivados das capacidades observadas no
+sistema e das operações necessárias para sustentar a automação do fluxo
+pedagógico. A
+Tabela~\ref{tab:requisitos-funcionais-levantamento} consolida os
+principais requisitos identificados.
+
+\begin{table}[H]
+\centering
+\caption{Requisitos funcionais identificados}
+\label{tab:requisitos-funcionais-levantamento}
+\begin{tabular}{p{2cm} p{12cm}}
+\hline
+\textbf{Código} & \textbf{Requisito funcional} \\
+\hline
+RF01 & O sistema deve permitir habilitar ou desabilitar a automação de um curso. \\
+\hline
+RF02 & O sistema deve permitir configurar regras automáticas relacionadas ao processo de inscrição. \\
+\hline
+RF03 & O sistema deve permitir configurar notificações automáticas para etapas do fluxo pedagógico. \\
+\hline
+RF04 & O sistema deve analisar cursos periodicamente para verificar a situação de suas etapas automatizáveis. \\
+\hline
+RF05 & O sistema deve identificar etapas elegíveis para execução automática em cada curso analisado. \\
+\hline
+RF06 & O sistema deve registrar ações pendentes quando a execução automática não puder ser concluída. \\
+\hline
+RF07 & O sistema deve permitir estratégias específicas de processamento para cada etapa automatizada. \\
+\hline
+RF08 & O sistema deve gerar certificados automaticamente quando os critérios definidos forem satisfeitos. \\
+\hline
+RF09 & O sistema deve permitir a confirmação automática de inscrições conforme regras previamente configuradas. \\
+\hline
+RF10 & O sistema deve permitir reutilizar configurações de automação entre cursos distintos. \\
+\hline
+RF11 & O sistema deve permitir a configuração de breakpoints ou pontos de controle dentro de cada etapa automatizada. \\
+\hline
+RF12 & O sistema deve permitir a exclusão de etapas da execução automática conforme a necessidade do curso. \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Requisitos não funcionais}
+\label{sec:metod:requisitos:nao-funcionais}
+
+Além das funcionalidades esperadas, a análise também evidenciou
+propriedades estruturais e operacionais necessárias para que a solução
+proposta seja sustentável, extensível e observável em ambiente real. Os
+requisitos não funcionais identificados são apresentados na
+Tabela~\ref{tab:requisitos-nao-funcionais-levantamento}.
+
+\begin{table}[H]
+\centering
+\caption{Requisitos não funcionais identificados}
+\label{tab:requisitos-nao-funcionais-levantamento}
+\begin{tabular}{p{2cm} p{12cm}}
+\hline
+\textbf{Código} & \textbf{Requisito não funcional} \\
+\hline
+RNF01 & O sistema deve possuir arquitetura extensível, baseada em estratégias de processamento. \\
+\hline
+RNF02 & O sistema deve registrar logs de execução, eventos relevantes e falhas ocorridas durante a automação. \\
+\hline
+RNF03 & O sistema deve suportar processamento assíncrono e agendado para execução periódica das análises. \\
+\hline
+RNF04 & O sistema deve manter rastreabilidade das etapas automatizadas e de seus respectivos estados. \\
+\hline
+RNF05 & O sistema deve permitir a expansão de novos fluxos automatizados sem necessidade de reestruturação ampla do núcleo da solução. \\
+\hline
+RNF06 & O sistema deve centralizar estruturas padronizadas de análise para reduzir inconsistências entre etapas. \\
+\hline
+RNF07 & O sistema deve separar responsabilidades de configuração, análise e execução das ações automatizadas. \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Síntese dos fluxos analisados}
+\label{sec:metod:requisitos:fluxos}
+
+Os diagramas elaborados para esta etapa permitem visualizar, sob
+diferentes perspectivas, o comportamento esperado da automação
+pedagógica. O diagrama de casos de uso evidencia as interações entre a
+equipe pedagógica, o aluno e o sistema de automação. O diagrama de
+sequência detalha o encadeamento técnico da rotina periódica, desde a
+busca dos cursos automáticos até a classificação do estado do curso e o
+despacho das etapas executáveis. Já o fluxo geral da automação resume o
+processo de configuração, análise, validação de condições, execução,
+atualização de status e tratamento de pendências.
+
+Em conjunto, esses artefatos confirmam que o problema investigado não se
+limita à execução isolada de tarefas, mas envolve a coordenação de um
+fluxo contínuo de análise e decisão sobre entidades pedagógicas
+interdependentes. Por essa razão, os requisitos levantados buscam
+equilibrar flexibilidade de configuração, controle operacional e
+capacidade de evolução arquitetural, de modo a sustentar a modelagem da
+solução proposta na seção seguinte.
 
 \section{Modelagem da solução proposta}
 \label{sec:metod:modelagem}
