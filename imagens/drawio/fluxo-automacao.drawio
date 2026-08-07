@@ -1,0 +1,167 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="z1KIia0LpGdF-k8CRgV8">
+    <mxGraphModel dx="1590" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rpAuRuohnJxjx-rGA2CH-228" edge="1" parent="1" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.5;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;" value="CURSO_TEM_AGENDAS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="110" y="66.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1179" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Curso criado ou configurado no Educa EMES" vertex="1">
+          <mxGeometry height="54" width="260" x="523" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1180" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Servidor define parâmetros da automação" vertex="1">
+          <mxGeometry height="54" width="260" x="523" y="984" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1181" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Sistema agenda análise periódica" vertex="1">
+          <mxGeometry height="54" width="260" x="523" y="1088" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1182" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Sistema verifica condições do curso" vertex="1">
+          <mxGeometry height="54" width="260" x="523" y="1192" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1183" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Condições atendidas?" vertex="1">
+          <mxGeometry height="205" width="205" x="467" y="1296" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1184" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Etapa torna-se elegível" vertex="1">
+          <mxGeometry height="54" width="221" x="149" y="1575" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1185" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Sistema executa ação automatizada" vertex="1">
+          <mxGeometry height="54" width="260" x="130" y="1679" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1186" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Sistema atualiza status da etapa" vertex="1">
+          <mxGeometry height="54" width="260" x="130" y="1883" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1187" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Sistema registra histórico e rastreabilidade" vertex="1">
+          <mxGeometry height="54" width="260" x="130" y="2111" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1188" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Sistema notifica responsáveis quando necessário" vertex="1">
+          <mxGeometry height="54" width="260" x="130" y="2215" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1189" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Sistema registra ação pendente" vertex="1">
+          <mxGeometry height="54" width="260" x="595" y="1575" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1190" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Responsável acompanha pendência" vertex="1">
+          <mxGeometry height="54" width="260" x="595" y="1679" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1191" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Intervenção manual necessária?" vertex="1">
+          <mxGeometry height="254" width="254" x="598" y="1783" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1192" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Responsável corrige cadastro ou ajusta configuração" vertex="1">
+          <mxGeometry height="54" width="260" x="440" y="2111" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1193" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Sistema reavalia o curso em ciclo posterior" vertex="1">
+          <mxGeometry height="54" width="260" x="678" y="2215" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1194" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Fluxo prossegue para a próxima etapa" vertex="1">
+          <mxGeometry height="54" width="260" x="130" y="2319" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1195" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Curso permanece aguardando ação" vertex="1">
+          <mxGeometry height="54" width="260" x="750" y="2111" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1196" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1179" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1180" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1197" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1180" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1181" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1198" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1181" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1182" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1199" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1182" style="curved=1;startArrow=none;endArrow=block;exitX=0.33;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1183" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="1271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1200" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1183" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.73;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1184" value="Sim">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="1538" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1201" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1184" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1185" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1202" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1185" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1186" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1203" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1186" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1187" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1204" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1187" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1188" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1205" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1188" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1194" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1206" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1183" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.95;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1189" value="Não">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="1538" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1207" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1189" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1190" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1208" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1190" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1191" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1209" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1191" style="curved=1;startArrow=none;endArrow=block;exitX=0.03;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1192" value="Sim">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="2074" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1210" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1192" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.02;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1193" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="2190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1211" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1193" style="curved=1;startArrow=none;endArrow=block;exitX=0.97;exitY=0;entryX=1;entryY=0.82;rounded=0;" target="lKDxBrET4LznXZze2eXG-1182" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1045" y="2190" />
+              <mxPoint x="1045" y="1271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1212" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1191" style="curved=1;startArrow=none;endArrow=block;exitX=0.97;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1195" value="Não">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="2074" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

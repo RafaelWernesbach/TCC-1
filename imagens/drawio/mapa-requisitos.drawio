@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="z1KIia0LpGdF-k8CRgV8">
+    <mxGraphModel dx="1957" dy="1049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rpAuRuohnJxjx-rGA2CH-228" edge="1" parent="1" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.5;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;" value="CURSO_TEM_AGENDAS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="110" y="66.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1091" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Análise do fluxo AS-IS" vertex="1">
+          <mxGeometry height="54" width="210" x="45" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1092" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Identificação de gargalos" vertex="1">
+          <mxGeometry height="54" width="234" x="914" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1093" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Análise estrutural do sistema atual" vertex="1">
+          <mxGeometry height="54" width="260" x="20" y="897" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1094" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Delimitação do minimundo" vertex="1">
+          <mxGeometry height="54" width="247" x="330" y="824" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1095" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Identificação dos atores" vertex="1">
+          <mxGeometry height="54" width="230" x="627" y="824" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1096" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Definição dos casos de uso" vertex="1">
+          <mxGeometry height="54" width="249" x="907" y="824" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1097" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Derivação dos requisitos funcionais" vertex="1">
+          <mxGeometry height="54" width="260" x="1206" y="772" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1098" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Derivação dos requisitos não funcionais" vertex="1">
+          <mxGeometry height="54" width="260" x="1206" y="907" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1099" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Base para a modelagem da solução proposta" vertex="1">
+          <mxGeometry height="54" width="260" x="1516" y="824" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1100" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1091" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.37;entryX=0;entryY=0.5;rounded=0;" target="lKDxBrET4LznXZze2eXG-1092" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="747" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1101" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1091" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=1;entryX=0.11;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1094" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="809" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1102" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1092" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.19;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1097" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1181" y="747" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1103" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1093" style="curved=1;startArrow=none;endArrow=block;exitX=0.81;exitY=0;entryX=0;entryY=0.82;rounded=0;" target="lKDxBrET4LznXZze2eXG-1094" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="872" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1104" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1093" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.66;entryX=0;entryY=0.5;rounded=0;" target="lKDxBrET4LznXZze2eXG-1098" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="934" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1105" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1094" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="lKDxBrET4LznXZze2eXG-1095" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1106" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1095" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="lKDxBrET4LznXZze2eXG-1096" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1107" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1096" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.19;entryY=1;rounded=0;" target="lKDxBrET4LznXZze2eXG-1097" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1181" y="851" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1108" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1097" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.19;entryY=0;rounded=0;" target="lKDxBrET4LznXZze2eXG-1099" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1491" y="799" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1109" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1098" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.3;entryY=1;rounded=0;" target="lKDxBrET4LznXZze2eXG-1099" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1491" y="934" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

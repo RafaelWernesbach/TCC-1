@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="z1KIia0LpGdF-k8CRgV8">
+    <mxGraphModel dx="1339" dy="1818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rpAuRuohnJxjx-rGA2CH-228" edge="1" parent="1" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.5;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;" value="CURSO_TEM_AGENDAS">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="110" y="66.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1160" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Servidor pedagógico" vertex="1">
+          <mxGeometry height="842" width="35" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1161" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Sistema Educa EMES" vertex="1">
+          <mxGeometry height="842" width="159" x="393" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1162" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Sistema de automação" vertex="1">
+          <mxGeometry height="842" width="173" x="769" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1163" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Responsável da equipe" vertex="1">
+          <mxGeometry height="842" width="35" x="992" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1164" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="486" width="1002" x="160" y="281" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1165" parent="lKDxBrET4LznXZze2eXG-1164" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Curso possui etapa elegível]" vertex="1">
+          <mxGeometry height="20" width="972" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1166" parent="lKDxBrET4LznXZze2eXG-1164" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[Curso possui pendências]" vertex="1">
+          <mxGeometry height="5" width="1002" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1167" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1160" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="lKDxBrET4LznXZze2eXG-1161" value="Configura curso e parâmetros de automação">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="295" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1168" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1161" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="lKDxBrET4LznXZze2eXG-1162" value="Disponibiliza curso para análise periódica">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="673" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1169" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1162" style="curved=1;endArrow=block;rounded=0;" target="lKDxBrET4LznXZze2eXG-1162" value="Verifica condições e pendências do fluxo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="907" y="231" />
+              <mxPoint x="907" y="261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1170" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1162" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="lKDxBrET4LznXZze2eXG-1161" value="Executa ou prepara ação automatizada">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="676" y="359" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1171" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1161" style="curved=1;endArrow=block;rounded=0;" target="lKDxBrET4LznXZze2eXG-1161" value="Atualiza status da etapa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="524" y="411" />
+              <mxPoint x="524" y="441" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1172" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1161" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="lKDxBrET4LznXZze2eXG-1160" value="Exibe andamento do fluxo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="298" y="493" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1173" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1162" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="lKDxBrET4LznXZze2eXG-1161" value="Registra ação pendente">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="676" y="591" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1174" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1161" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="lKDxBrET4LznXZze2eXG-1163" value="Notifica pendência ou bloqueio">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="784" y="643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1175" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1163" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="lKDxBrET4LznXZze2eXG-1161" value="Realiza intervenção manual ou ajuste">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="787" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lKDxBrET4LznXZze2eXG-1176" edge="1" parent="1" source="lKDxBrET4LznXZze2eXG-1161" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="lKDxBrET4LznXZze2eXG-1162" value="Curso permanece disponível para nova análise">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="673" y="747" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
